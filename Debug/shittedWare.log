@@ -1,0 +1,12 @@
+﻿  main.cpp
+C:\Users\Тимус\source\repos\shittedWare\GDI.h(36,24): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Тимус\source\repos\shittedWare\GDI.h(36,16): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Тимус\source\repos\shittedWare\GDI.h(37,24): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Тимус\source\repos\shittedWare\GDI.h(37,18): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Тимус\source\repos\shittedWare\ESP.h(21,64): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Тимус\source\repos\shittedWare\ESP.h(21,57): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Тимус\source\repos\shittedWare\ESP.h(21,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Тимус\source\repos\shittedWare\ESP.h(21,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Тимус\source\repos\shittedWare\ESP.h(22,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Тимус\source\repos\shittedWare\ESP.h(22,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  shittedWare.vcxproj -> C:\Users\Тимус\source\repos\shittedWare\Debug\shittedWare.exe

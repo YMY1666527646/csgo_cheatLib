@@ -1,0 +1,111 @@
+#pragma once
+#include <Windows.h>
+
+namespace player
+{
+	DWORD cs_gamerules_data = 0x0;
+	DWORD m_ArmorValue = 0x117CC;
+	DWORD m_Collision = 0x320;
+	DWORD m_CollisionGroup = 0x474;
+	DWORD m_Local = 0x2FCC;
+	DWORD m_MoveType = 0x25C;
+	DWORD m_OriginalOwnerXuidHigh = 0x31D4;
+	DWORD m_OriginalOwnerXuidLow = 0x31D0;
+	DWORD m_SurvivalGameRuleDecisionTypes = 0x1328;
+	DWORD m_SurvivalRules = 0xD00;
+	DWORD m_aimPunchAngle = 0x303C;
+	DWORD m_aimPunchAngleVel = 0x3048;
+	DWORD m_angEyeAnglesX = 0x117D0;
+	DWORD m_angEyeAnglesY = 0x117D4;
+	DWORD m_bBombDefused = 0x29C0;
+	DWORD m_bBombPlanted = 0x9A5;
+	DWORD m_bBombTicking = 0x2990;
+	DWORD m_bFreezePeriod = 0x20;
+	DWORD m_bGunGameImmunity = 0x9990;
+	DWORD m_bHasDefuser = 0x117DC;
+	DWORD m_bHasHelmet = 0x117C0;
+	DWORD m_bInReload = 0x32B5;
+	DWORD m_bIsDefusing = 0x997C;
+	DWORD m_bIsQueuedMatchmaking = 0x74;
+	DWORD m_bIsScoped = 0x9974;
+	DWORD m_bIsValveDS = 0x7C;
+	DWORD m_bSpotted = 0x93D;
+	DWORD m_bSpottedByMask = 0x980;
+	DWORD m_bStartedArming = 0x3400;
+	DWORD m_bUseCustomAutoExposureMax = 0x9D9;
+	DWORD m_bUseCustomAutoExposureMin = 0x9D8;
+	DWORD m_bUseCustomBloomScale = 0x9DA;
+	DWORD m_clrRender = 0x70;
+	DWORD m_dwBoneMatrix = 0x26A8;
+	DWORD m_fAccuracyPenalty = 0x3340;
+	DWORD m_fFlags = 0x104;
+	DWORD m_flC4Blow = 0x29A0;
+	DWORD m_flCustomAutoExposureMax = 0x9E0;
+	DWORD m_flCustomAutoExposureMin = 0x9DC;
+	DWORD m_flCustomBloomScale = 0x9E4;
+	DWORD m_flDefuseCountDown = 0x29BC;
+	DWORD m_flDefuseLength = 0x29B8;
+	DWORD m_flFallbackWear = 0x31E0;
+	DWORD m_flFlashDuration = 0x10470;
+	DWORD m_flFlashMaxAlpha = 0x1046C;
+	DWORD m_flLastBoneSetupTime = 0x2928;
+	DWORD m_flLowerBodyYawTarget = 0x9ADC;
+	DWORD m_flNextAttack = 0x2D80;
+	DWORD m_flNextPrimaryAttack = 0x3248;
+	DWORD m_flSimulationTime = 0x268;
+	DWORD m_flTimerLength = 0x29A4;
+	DWORD m_hActiveWeapon = 0x2F08;
+	DWORD m_hBombDefuser = 0x29C4;
+	DWORD m_hMyWeapons = 0x2E08;
+	DWORD m_hObserverTarget = 0x339C;
+	DWORD m_hOwner = 0x29DC;
+	DWORD m_hOwnerEntity = 0x14C;
+	DWORD m_hViewModel = 0x3308;
+	DWORD m_iAccountID = 0x2FD8;
+	DWORD m_iClip1 = 0x3274;
+	DWORD m_iCompetitiveRanking = 0x1A84;
+	DWORD m_iCompetitiveWins = 0x1B88;
+	DWORD m_iCrosshairId = 0x11838;
+	DWORD m_iDefaultFOV = 0x333C;
+	DWORD m_iEntityQuality = 0x2FBC;
+	DWORD m_iFOV = 0x31F4;
+	DWORD m_iFOVStart = 0x31F8;
+	DWORD m_iGlowIndex = 0x10488;
+	DWORD m_iHealth = 0x100;
+	DWORD m_iItemDefinitionIndex = 0x2FBA;
+	DWORD m_iItemIDHigh = 0x2FD0;
+	DWORD m_iMostRecentModelBoneCounter = 0x2690;
+	DWORD m_iObserverMode = 0x3388;
+	DWORD m_iShotsFired = 0x103E0;
+	DWORD m_iState = 0x3268;
+	DWORD m_iTeamNum = 0xF4;
+	DWORD m_lifeState = 0x25F;
+	DWORD m_nBombSite = 0x2994;
+	DWORD m_nFallbackPaintKit = 0x31D8;
+	DWORD m_nFallbackSeed = 0x31DC;
+	DWORD m_nFallbackStatTrak = 0x31E4;
+	DWORD m_nForceBone = 0x268C;
+	DWORD m_nTickBase = 0x3440;
+	DWORD m_nViewModelIndex = 0x29D0;
+	DWORD m_rgflCoordinateFrame = 0x444;
+	DWORD m_szCustomName = 0x304C;
+	DWORD m_szLastPlaceName = 0x35C4;
+	DWORD m_thirdPersonViewAngles = 0x31E8;
+	DWORD m_vecOrigin = 0x138;
+	DWORD m_vecVelocity = 0x114;
+	DWORD m_vecViewOffset = 0x108;
+	DWORD m_viewPunchAngle = 0x3030;
+	DWORD m_zoomLevel = 0x33E0;
+	DWORD m_dwPlayerIndex = 0x64;
+}
+
+namespace signatures
+{
+	DWORD dwEntityList = 0x4DD0AB4;
+	DWORD dwClientState = 0x589FC4;
+	DWORD dwClientState_GetLocalPlayer = 0x180;
+	DWORD dwLocalPlayer = 0xDB558C;
+	DWORD dwClientState_ViewAngles = 0x4D90;
+	DWORD dwClientState_MaxPlayer = 0x388;
+	DWORD dwViewMatrix = 0x4DC23B4;
+}
